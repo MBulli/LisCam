@@ -1,0 +1,349 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2832F6C5197DB4C40069A724 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2832F6C4197DB4C40069A724 /* Foundation.framework */; };
+		2832F6C7197DB4C40069A724 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2832F6C6197DB4C40069A724 /* CoreGraphics.framework */; };
+		2832F6C9197DB4C40069A724 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2832F6C8197DB4C40069A724 /* UIKit.framework */; };
+		2832F6CF197DB4C40069A724 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2832F6CD197DB4C40069A724 /* InfoPlist.strings */; };
+		2832F6D1197DB4C40069A724 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2832F6D0197DB4C40069A724 /* main.m */; };
+		2832F6D5197DB4C40069A724 /* MBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2832F6D4197DB4C40069A724 /* MBAppDelegate.m */; };
+		2832F6D8197DB4C40069A724 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2832F6D6197DB4C40069A724 /* Main_iPhone.storyboard */; };
+		2832F6DB197DB4C40069A724 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2832F6D9197DB4C40069A724 /* Main_iPad.storyboard */; };
+		2832F6DE197DB4C40069A724 /* MBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2832F6DD197DB4C40069A724 /* MBViewController.m */; };
+		2832F6E0197DB4C40069A724 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2832F6DF197DB4C40069A724 /* Images.xcassets */; };
+		2832F6FD197DB5400069A724 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2832F6FC197DB5400069A724 /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2832F6C1197DB4C40069A724 /* LisCam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LisCam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2832F6C4197DB4C40069A724 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2832F6C6197DB4C40069A724 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2832F6C8197DB4C40069A724 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2832F6CC197DB4C40069A724 /* LisCam-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LisCam-Info.plist"; sourceTree = "<group>"; };
+		2832F6CE197DB4C40069A724 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2832F6D0197DB4C40069A724 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2832F6D2197DB4C40069A724 /* LisCam-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LisCam-Prefix.pch"; sourceTree = "<group>"; };
+		2832F6D3197DB4C40069A724 /* MBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBAppDelegate.h; sourceTree = "<group>"; };
+		2832F6D4197DB4C40069A724 /* MBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBAppDelegate.m; sourceTree = "<group>"; };
+		2832F6D7197DB4C40069A724 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		2832F6DA197DB4C40069A724 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		2832F6DC197DB4C40069A724 /* MBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBViewController.h; sourceTree = "<group>"; };
+		2832F6DD197DB4C40069A724 /* MBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBViewController.m; sourceTree = "<group>"; };
+		2832F6DF197DB4C40069A724 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2832F6E6197DB4C40069A724 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2832F6FC197DB5400069A724 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2832F6BE197DB4C40069A724 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2832F6FD197DB5400069A724 /* AVFoundation.framework in Frameworks */,
+				2832F6C7197DB4C40069A724 /* CoreGraphics.framework in Frameworks */,
+				2832F6C9197DB4C40069A724 /* UIKit.framework in Frameworks */,
+				2832F6C5197DB4C40069A724 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2832F6B8197DB4C40069A724 = {
+			isa = PBXGroup;
+			children = (
+				2832F6CA197DB4C40069A724 /* LisCam */,
+				2832F6C3197DB4C40069A724 /* Frameworks */,
+				2832F6C2197DB4C40069A724 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2832F6C2197DB4C40069A724 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2832F6C1197DB4C40069A724 /* LisCam.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2832F6C3197DB4C40069A724 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2832F6FC197DB5400069A724 /* AVFoundation.framework */,
+				2832F6C4197DB4C40069A724 /* Foundation.framework */,
+				2832F6C6197DB4C40069A724 /* CoreGraphics.framework */,
+				2832F6C8197DB4C40069A724 /* UIKit.framework */,
+				2832F6E6197DB4C40069A724 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2832F6CA197DB4C40069A724 /* LisCam */ = {
+			isa = PBXGroup;
+			children = (
+				2832F6D3197DB4C40069A724 /* MBAppDelegate.h */,
+				2832F6D4197DB4C40069A724 /* MBAppDelegate.m */,
+				2832F6D6197DB4C40069A724 /* Main_iPhone.storyboard */,
+				2832F6D9197DB4C40069A724 /* Main_iPad.storyboard */,
+				2832F6DC197DB4C40069A724 /* MBViewController.h */,
+				2832F6DD197DB4C40069A724 /* MBViewController.m */,
+				2832F6DF197DB4C40069A724 /* Images.xcassets */,
+				2832F6CB197DB4C40069A724 /* Supporting Files */,
+			);
+			path = LisCam;
+			sourceTree = "<group>";
+		};
+		2832F6CB197DB4C40069A724 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2832F6CC197DB4C40069A724 /* LisCam-Info.plist */,
+				2832F6CD197DB4C40069A724 /* InfoPlist.strings */,
+				2832F6D0197DB4C40069A724 /* main.m */,
+				2832F6D2197DB4C40069A724 /* LisCam-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2832F6C0197DB4C40069A724 /* LisCam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2832F6F6197DB4C50069A724 /* Build configuration list for PBXNativeTarget "LisCam" */;
+			buildPhases = (
+				2832F6BD197DB4C40069A724 /* Sources */,
+				2832F6BE197DB4C40069A724 /* Frameworks */,
+				2832F6BF197DB4C40069A724 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LisCam;
+			productName = LisCam;
+			productReference = 2832F6C1197DB4C40069A724 /* LisCam.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2832F6B9197DB4C40069A724 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MB;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = MBulli;
+				TargetAttributes = {
+					2832F6C0197DB4C40069A724 = {
+						DevelopmentTeam = MXGKQ725V4;
+					};
+				};
+			};
+			buildConfigurationList = 2832F6BC197DB4C40069A724 /* Build configuration list for PBXProject "LisCam" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2832F6B8197DB4C40069A724;
+			productRefGroup = 2832F6C2197DB4C40069A724 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2832F6C0197DB4C40069A724 /* LisCam */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2832F6BF197DB4C40069A724 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2832F6DB197DB4C40069A724 /* Main_iPad.storyboard in Resources */,
+				2832F6E0197DB4C40069A724 /* Images.xcassets in Resources */,
+				2832F6D8197DB4C40069A724 /* Main_iPhone.storyboard in Resources */,
+				2832F6CF197DB4C40069A724 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2832F6BD197DB4C40069A724 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2832F6D1197DB4C40069A724 /* main.m in Sources */,
+				2832F6DE197DB4C40069A724 /* MBViewController.m in Sources */,
+				2832F6D5197DB4C40069A724 /* MBAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2832F6CD197DB4C40069A724 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2832F6CE197DB4C40069A724 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2832F6D6197DB4C40069A724 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2832F6D7197DB4C40069A724 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		2832F6D9197DB4C40069A724 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2832F6DA197DB4C40069A724 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2832F6F4197DB4C50069A724 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2832F6F5197DB4C50069A724 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2832F6F7197DB4C50069A724 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LisCam/LisCam-Prefix.pch";
+				INFOPLIST_FILE = "LisCam/LisCam-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "D7306C9B-43FC-4E49-A311-18EA723417AA";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2832F6F8197DB4C50069A724 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LisCam/LisCam-Prefix.pch";
+				INFOPLIST_FILE = "LisCam/LisCam-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "D7306C9B-43FC-4E49-A311-18EA723417AA";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2832F6BC197DB4C40069A724 /* Build configuration list for PBXProject "LisCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2832F6F4197DB4C50069A724 /* Debug */,
+				2832F6F5197DB4C50069A724 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2832F6F6197DB4C50069A724 /* Build configuration list for PBXNativeTarget "LisCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2832F6F7197DB4C50069A724 /* Debug */,
+				2832F6F8197DB4C50069A724 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2832F6B9197DB4C40069A724 /* Project object */;
+}
